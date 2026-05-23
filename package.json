@@ -1,0 +1,16 @@
+{
+  "name": "ia-mentor-carreira-tech",
+  "version": "1.0.0",
+  "description": "Projeto curto da DIO: IA Mentor de Carreira para descobrir trilhas em tecnologia.",
+  "main": "index.html",
+  "keywords": [
+    "dio",
+    "ia",
+    "carreira",
+    "tecnologia",
+    "portfolio",
+    "javascript"
+  ],
+  "author": "Claudio Santos",
+  "license": "MIT"
+}

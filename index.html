@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IA Mentor de Carreira</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <p class="tag">Mentoria de carreira com IA</p>
+      <h1>IA Mentor de Carreira</h1>
+      <p>
+        Descubra uma possível trilha para começar ou evoluir na área de tecnologia.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Responda seu perfil</h2>
+
+      <label for="interest">O que mais chama sua atenção?</label>
+      <select id="interest">
+        <option value="support">Resolver problemas de usuários</option>
+        <option value="cloud">Infraestrutura, servidores e nuvem</option>
+        <option value="data">Analisar dados e gerar insights</option>
+        <option value="ai">Criar soluções com inteligência artificial</option>
+        <option value="security">Proteger sistemas e informações</option>
+        <option value="dev">Criar sites, sistemas e aplicativos</option>
+        <option value="devops">Automação, deploy e integração contínua</option>
+      </select>
+
+      <label for="skill">Qual habilidade você quer desenvolver?</label>
+      <select id="skill">
+        <option value="communication">Comunicação e atendimento</option>
+        <option value="logic">Lógica e programação</option>
+        <option value="automation">Automação de processos</option>
+        <option value="analysis">Análise e investigação</option>
+        <option value="infrastructure">Infraestrutura e operação</option>
+      </select>
+
+      <button id="generateBtn">Descobrir minha trilha</button>
+    </section>
+
+    <section id="result" class="result hidden">
+      <h2 id="careerTitle"></h2>
+      <p id="careerDescription"></p>
+
+      <h3>Primeiros passos recomendados</h3>
+      <ul id="steps"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
